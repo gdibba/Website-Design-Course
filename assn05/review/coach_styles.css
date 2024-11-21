@@ -79,7 +79,10 @@ aside blockquote {
 
 /* Navigation Styles */	
 
-
+body > nav {
+   font-size: 0.8em;
+   line-height: 2em;
+}
 
 
 /* Paragraph Styles */
