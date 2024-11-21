@@ -64,6 +64,13 @@ nav:visited a:link {
   font-family: Trebuchet MS, Helvetica, sans-serif;
 }
 
+nav a:link,
+nav a:visited,
+a:link nav a:visited,
+nav:visited a:link {
+  background-color: hsla(0, 0%, 42%, 0.4);
+}
+
 
 
 
