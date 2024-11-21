@@ -34,7 +34,10 @@ body {
 
 /* Heading Styles */
 
-
+h1, h2 {
+	font-family: Quicksand, Verdana, Geneva, sans-serif;
+	letter-spacing: 0.1em;
+}
 
 
 
