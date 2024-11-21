@@ -115,7 +115,17 @@ nav > ul > li > a:hover, nav > ul > li > a:active {
 
 /* List Styles */
 
+article.syllabus ol {
+	list-style-type: upper-roman;
+}
 
+article.syllabus ol ol {
+	list-style-type: upper-alpha;
+}
+
+article.syllabus ol ol ol {
+	list-style-type: decimal;
+}
 
 
 
