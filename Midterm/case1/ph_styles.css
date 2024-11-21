@@ -82,7 +82,13 @@ nav:active a:hover {
 
 /* Section Styles */
 
-
+section.playbill h1 {
+   font-size: 3em;
+   font-weight: normal;
+   margin: 0;
+   padding: 20px 0 10px 20px;
+ }
+ 
 
 
 /* Description List Styles */
