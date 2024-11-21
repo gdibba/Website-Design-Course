@@ -99,6 +99,11 @@ nav > ul > li > a:link {
    text-decoration: none;
 }
 
+nav > ul > li > a:hover,
+nav > ul > li > a:active {
+   color: rgb(222, 128, 60);
+   text-decoration: underline;
+}
 
 
 
