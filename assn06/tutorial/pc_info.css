@@ -17,6 +17,13 @@ div.infobox {
 
 /* Main Styles */
 
+main {
+	overflow: auto;
+	position: relative;
+	height: 450px;
+	width: 100%;
+}
+
 
 
 /* Infographic Styles */
