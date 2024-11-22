@@ -25,10 +25,11 @@ main {
 }
 
 
-
 /* Infographic Styles */
 
-
+div.infobox {
+	position: absolute; 
+}
 
 /* First Infographic */
 
