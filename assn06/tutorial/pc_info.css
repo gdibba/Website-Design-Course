@@ -11,6 +11,9 @@
 
 */
 
+div.infobox {
+	display: none;
+}
 
 /* Main Styles */
 
