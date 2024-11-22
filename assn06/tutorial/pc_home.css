@@ -49,6 +49,12 @@ nav.horizontalNavigation a {
 
 /* Left Column Styles */
 
+section#leftColumn {
+	clear: left;
+	float: left;
+	width: 33%;
+	padding: 1.5em;
+}
 
 
 
