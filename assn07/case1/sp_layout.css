@@ -82,7 +82,21 @@ nav.horizontal > ul > li {
 
 /* Topics Styles */
 
-
+ul#topics > li {
+   display: block;
+   width: 20%;
+   float: left;
+   margin-left: 0;
+   margin-right: 1.5%;
+ }
+ 
+ ul#topics > li:first-child {
+   margin-left: 7.75%;
+ }
+ 
+ ul#topics > li:last-child {
+   margin-right: 7.75%;
+ }
 
 
 
