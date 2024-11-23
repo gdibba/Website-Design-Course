@@ -100,3 +100,6 @@ a.battleMarkers {
    display: none;
  }
 
+ a.battleMarkers:hover + div.mapInfo {
+   display: block;
+ }
