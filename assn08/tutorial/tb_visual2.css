@@ -15,6 +15,9 @@
 
 
 /* Transformation Styles */
+article {
+	perspective: 600px;
+}
 
 
 
