@@ -115,7 +115,9 @@ ul#topics > li {
 
 /* HR Styles */
 
-
+hr {
+   width: 50%;
+ }
 
 
 /* Customer Comment Styles */
