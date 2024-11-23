@@ -57,7 +57,11 @@ aside {
 
 /* Interactive Map Styles */
 
-
+a.battleMarkers {
+   position: absolute;
+   top: 0;
+   left: 0;
+ }
 
 
 /* Map Information Styles */
