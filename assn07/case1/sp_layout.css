@@ -52,7 +52,23 @@ html {
 
 /* Page Header Styles */
 
-
+header > img {
+   display: block;
+   width: 70%;
+   float: left;
+ }
+ 
+ header nav {
+   float: left;
+   padding-left: 2%;
+   padding-right: 2%;
+   width: 30%;
+ }
+ 
+ header > nav > ul > li > a {
+   display: block;
+   width: 100%;
+ }
 
 
 
