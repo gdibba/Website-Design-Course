@@ -134,7 +134,13 @@ ul#comments {
    margin-bottom: 30px;
  }
  
-
+ ul#comments > li > img {
+   display: block;
+   width: 20%;
+   float: left;
+   margin-right: 5%;
+   margin-left: 5%;
+ }
 /* Footer Styles */
 
 
