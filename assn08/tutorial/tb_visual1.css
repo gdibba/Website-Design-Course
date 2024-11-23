@@ -24,7 +24,10 @@ figure {
 	opacity: 0.55;
 }
 
-
+figure img {
+	display: block;
+	width: 100%;
+}
 
 
 /* HTML Styles */
