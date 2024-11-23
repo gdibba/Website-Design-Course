@@ -146,7 +146,9 @@ ul#comments {
    float: left;
    width: 70%;
  }
- 
+
 /* Footer Styles */
 
-
+footer {
+  clear: both;
+}
