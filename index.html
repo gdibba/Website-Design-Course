@@ -3,78 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>G Dibba Projects</title>
+    <title>G Dibba Projects - Cyberpunk</title>
     <style>
+        /* General Body Styling */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Courier New', Courier, monospace;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            color: #00ff99;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            background-size: 400% 400%;
+            animation: gradientBG 10s ease infinite;
         }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Header Styles */
         header {
-            background-color: #333;
-            color: white;
-            padding: 1rem 0;
+            background: #1e1e2f;
+            color: #00ff99;
+            text-shadow: 0 0 10px #00ff99, 0 0 20px #00ff99;
+            padding: 2rem 0;
             text-align: center;
+            border-bottom: 2px solid #00ff99;
         }
+
+        header h1 {
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #a1ffce;
+        }
+
+        /* Container */
         .container {
             margin: 2rem auto;
-            max-width: 800px;
+            max-width: 900px;
             padding: 0 1rem;
         }
+
+        /* Project List */
         .project-list {
             list-style: none;
             padding: 0;
         }
+
         .project-list li {
-            background: white;
-            margin: 0.5rem 0;
-            padding: 1rem;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            transition: transform 0.2s;
+            background: rgba(30, 30, 47, 0.8);
+            color: #00ff99;
+            margin: 1rem 0;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 255, 153, 0.4), 0 0 15px rgba(0, 255, 153, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
         }
+
         .project-list li:hover {
-            transform: translateY(-5px);
+            transform: translateY(-10px);
+            box-shadow: 0 6px 20px rgba(0, 255, 153, 0.6), 0 0 25px rgba(0, 255, 153, 0.4);
         }
+
         .project-list a {
             text-decoration: none;
-            color: #333;
+            color: #a1ffce;
             font-size: 1.2rem;
+            font-weight: bold;
         }
+
+        .project-list a:hover {
+            color: #00ff99;
+            text-shadow: 0 0 10px #00ff99, 0 0 20px #00ff99;
+        }
+
+        /* Footer */
         footer {
             margin-top: 2rem;
             text-align: center;
             font-size: 0.9rem;
-            color: #555;
+            color: #a1ffce;
+            padding: 1rem 0;
+            border-top: 2px solid #00ff99;
+        }
+
+        footer p {
+            margin: 0;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>CSC230 Website Design Assignments</h1>
-        <p>Explore the assignments I've worked on during this course.</p>
+        <p>Explore the neon-fueled assignments I've worked on during this course.</p>
     </header>
 
     <div class="container">
+        <!-- Project List -->
         <ul class="project-list">
-            <li>Assignment 1 - Paper, Role of a Software Programmer/Developer</a></li>
-            <li><a href="assn02\tutorial\ct_catering.html">Assignment 2</a></li>
-            <li><a href="assn03\review\mp_index.html">Assignment 3</a></li>
-            <li><a href="assn04\case1\jtc_index.html">Assignment 4</a></li>
-            <li><a href="assn05\tutorial\tss_home.html">Assignment 5.1</a></li>
-            <li><a href="assn05\review\tss_coach.html">Assignment 5.2</a></li>
-            <li><a href="assn06\tutorial\pc_about.html">Assignment 6</a></li>
-            <li><a href="assn07\case1\sp_home.html">Assignment 7.1</a></li>
-            <li><a href="assn07\case3\ss_dday.html">Assignment 7.2</a></li>
-            <li><a href="assn08/index.html">Assignment 8</a></li>
+            <li>Assignment 1 - Paper, Role of a Software Programmer/Developer</li>
+            <li><a href="assn02/tutorial/ct_catering.html">Assignment 2 - Curbside Thai (HTML01, Tutorial 1)</a></li>
+            <li><a href="assn03/review/mp_index.html">Assignment 3 - Mobile Panini (HTML01, Review 1)</a></li>
+            <li><a href="assn04/case1/jtc_index.html">Assignment 4 - Jedds Tree Service (HTML01, Case 1)</a></li>
+            <li><a href="assn05/tutorial/tss_home.html">Assignment 5.1 - Tri and Succeed Sports (HTML02, Tutorial)</a></li>
+            <li><a href="assn05/review/tss_coach.html">Assignment 5.2 - Meet Our Coaches (HTML02, Review)</a></li>
+            <li><a href="assn06/tutorial/pc_about.html">Assignment 6 - Pandaisia Chocolates (HTML03, Tutorial)</a></li>
+            <li><a href="assn07/case1/sp_home.html">Assignment 7.1 - Slate & Pencil (HTML03, Case 1)</a></li>
+            <li><a href="assn07/case3/ss_dday.html">Assignment 7.2 - Soldier's Scrapbook (HTML03, Case 1)</a></li>
+            <li><a href="assn08/tutorial/tb_komatsu.html">Assignment 8.1 - Tree and Book (HTML04, Tutorial)</a></li>
+            <li><a href="assn08/case2/sf_torte.html">Assignment 8.2 - Save Your Fork (HTML04, Case 2)</a></li>
             <li><a href="assn09/index.html">Assignment 9</a></li>
-            <li><a href="Midterm\case1\ph_plays.html">Midterm Project</a></li>
+            <li><a href="Midterm/case1/ph_plays.html">Midterm Project - Philip Henslowe Classic Theatre (HTML02, Case 1)</a></li>
         </ul>
     </div>
 
     <footer>
-        <p>&copy; 2024 G Dibba.</p>
+        <p>&copy; 2024 G Dibba. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
