@@ -13,6 +13,8 @@
 
 */
 
+
+/* Column Styles */
 @media only screen and (min-width: 641px) {
    article {
 		-moz-column-count: 2;
@@ -30,7 +32,15 @@
 		widows: 3;
 		orphans: 3;
 	}
+
+   article h1 {
+		-moz-column-span: all;
+		-webkit-column-span: all;
+		column-span: all;
+	}
+
+
 }
 
-/* Column Styles */
+
 
