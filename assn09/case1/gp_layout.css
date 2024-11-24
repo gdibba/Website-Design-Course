@@ -69,5 +69,17 @@ nav.horizontal {
 */
 
 @media only screen and (min-width: 481px) {
-   
+
+   nav.horizontal ul {
+      display: -webkit-flex;
+      display: flex;
+  
+      -webkit-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+  
+      height: 40px;
+    }
+  
+
+
 }
