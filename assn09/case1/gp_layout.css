@@ -30,6 +30,10 @@ body {
    flex-flow: row wrap;
  }
 
+ section#sheet {
+   -webkit-flex: 3 1 301px;
+   flex: 3 1 301px;
+ }
 
 
 /* ============================================
