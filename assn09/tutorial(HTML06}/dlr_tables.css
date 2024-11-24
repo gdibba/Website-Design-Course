@@ -38,7 +38,23 @@ table.schedule caption {
 
 
 /* Row Group Styles */
+table.schedule thead {
+	background: rgb(153, 0, 153);
+	color: white;
+}
 
+table.schedule tfoot {
+	background: black;
+	color: white;
+}
+
+table.schedule thead tr {
+	height: 30px;
+}
+
+table.schedule tbody tr {
+	height: 40px;
+}
 
 
 /* Column Group Styles */
