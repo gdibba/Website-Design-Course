@@ -52,6 +52,10 @@ body {
     }
 }
 
+nav.horizontal {
+   -webkit-order: 99;
+   order: 99;
+ }
 
 /* ===================================================
 	Tablet and Desktop Devices: Greater than 480 pixels
