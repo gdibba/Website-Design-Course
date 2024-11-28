@@ -23,7 +23,11 @@ table#pricing th, table#pricing td {
 	line-height: 1.4em;
 	padding: 8px;
 }
-
+table#pricing td {
+	color: white;
+	font-size: 0.9em;
+	vertical-align: top;
+}
 /* Column Styles */
 
 
