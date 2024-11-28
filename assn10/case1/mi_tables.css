@@ -34,7 +34,9 @@ table#pricing th {
 	font-weight: normal;
 }
 /* Column Styles */
-
+#firstCol {
+	width: 24%;
+}
 
 
 /* Table Header Styles */
