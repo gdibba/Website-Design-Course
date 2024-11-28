@@ -38,7 +38,9 @@ table#pricing th {
 	width: 24%;
 }
 
-
+#dataCols {
+	width: 19%
+}
 /* Table Header Styles */
 
 
