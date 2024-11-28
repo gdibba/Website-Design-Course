@@ -51,7 +51,10 @@ table#pricing > thead > tr:first-of-type > th:first-of-type {
 }
 
 
-
+table#pricing > thead > tr:first-of-type > th:not(:first-of-type) {
+	background-color: transparent;
+	color: black;
+}
 
 
 
