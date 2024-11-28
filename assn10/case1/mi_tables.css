@@ -42,6 +42,9 @@ table#pricing th {
 	width: 19%
 }
 /* Table Header Styles */
+thead tr {
+	height: 60px;
+}
 
 
 
