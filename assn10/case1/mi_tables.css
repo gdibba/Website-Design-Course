@@ -28,6 +28,11 @@ table#pricing td {
 	font-size: 0.9em;
 	vertical-align: top;
 }
+table#pricing th {
+	background-color: black;
+	color: rgb(130, 210, 255);
+	font-weight: normal;
+}
 /* Column Styles */
 
 
